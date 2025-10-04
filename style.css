@@ -1,0 +1,80 @@
+:root {
+  --gold-color: #CFAF6F;
+  --dark-bg: #121212;
+  --light-text: #f5f5f5;
+  --muted-text: #999999;
+  --card-bg: #1e1e1e;
+  --font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: var(--dark-bg);
+  color: var(--light-text);
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  color: var(--gold-color);
+}
+
+input, textarea {
+  background-color: var(--dark-bg);
+  color: var(--light-text);
+  border: 1px solid var(--gold-color);
+  padding: 0.75em;
+  border-radius: 6px;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+button {
+  background-color: var(--gold-color);
+  color: var(--dark-bg);
+  padding: 0.75em 1.5em;
+  border: none;
+  border-radius: 999px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e0c88f;
+}
+
+form {
+  background-color: var(--card-bg);
+  padding: 2em;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+nav a {
+  color: var(--light-text);
+  text-decoration: none;
+  margin: 0 1em;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: var(--gold-color);
+}
+
+footer {
+  text-align: center;
+  color: var(--muted-text);
+  padding: 2em 0;
+  background-color: var(--dark-bg);
+}
+
+#chat-window {
+  background-color: var(--dark-bg);
+  border: 1px solid var(--gold-color);
+  color: var(--light-text);
+  padding: 1em;
+  border-radius: 6px;
+  height: 20em;
+  overflow-y: auto;
+}
