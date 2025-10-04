@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mercedes Booking</title>
+  <!-- Tailwind Setup -->
+  <!-- (Insert shared Tailwind setup here) -->
+</head>
+<body class="bg-dark text-light font-sans flex flex-col min-h-screen">
+  <header id="header" class="sticky top-0 bg-dark shadow-md z-50"></header>
+
+  <main class="flex-grow container mx-auto px-6 py-20">
+    <h1 class="text-4xl font-bold mb-6 text-center text-gold">Book Your Mercedes</h1>
+    <form class="max-w-xl mx-auto bg-[#1e1e1e] p-8 rounded-xl shadow-xl space-y-4">
+      <input type="text" placeholder="Your Name" class="w-full bg-dark border border-gold text-light p-3 rounded-md" required />
+      <input type="text" placeholder="Preferred Model" class="w-full bg-dark border border-gold text-light p-3 rounded-md" required />
+      <textarea placeholder="Feedback or Special Requests" class="w-full bg-dark border border-gold text-light p-3 rounded-md" rows="4"></textarea>
+      <button type="submit" class="bg-gold text-dark px-6 py-3 rounded-full font-semibold">Submit Booking</button>
+    </form>
+  </main>
+
+  <footer id="footer" class="bg-dark text-muted py-10 mt-auto"></footer>
+  <script src="nav.js"></script>
+</body>
+</html>
